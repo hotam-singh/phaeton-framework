@@ -20,7 +20,7 @@ The logger component can be passed to any module, where it can be extended by ad
 The storage component is responsible for all database activity in the system.
 It exposes an interface with specific features for getting or setting particular database entities and a raw handler to the database object so that any module can extend it for its own use.
 
-Find more details about the storage component in the dedicated [LIP](https://github.com/PhaetonHQ/lips/blob/master/proposals/lip-0011.md).
+Find more details about the storage component in the dedicated [LIP](https://github.com/oodlestechnologies/lips/blob/master/proposals/lip-0011.md).
 
 ## Configuration
 

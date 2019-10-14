@@ -47,7 +47,7 @@ class TransactionInterfaceAdapter {
 		return new TransactionClass(rawTx);
 	}
 
-	// TODO: remove after https://github.com/PhaetonHQ/phaeton/issues/2424
+	// TODO: remove after https://github.com/oodlestechnologies/phaeton/issues/2424
 	dbRead(raw) {
 		if (
 			raw.t_id === undefined ||

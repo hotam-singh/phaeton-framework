@@ -23,7 +23,7 @@ const blocksLogic = require('./block');
  * Generates a list of full blocks structured as full_blocks_list DB view
  * db.blocks.loadBlocksDataWS used to return the raw full_blocks_list fields and peers expect to receive this schema
  * After replacing db.blocks for storage.entities.Block, this parser was required to transfor storage object to the expected format.
- * This should be removed along with https://github.com/PhaetonHQ/phaeton/issues/2424 implementation
+ * This should be removed along with https://github.com/oodlestechnologies/phaeton/issues/2424 implementation
  *
  * @param {Object} ExtendedBlock - Storage ExtendedBlock object
  * @returns {Array} Array of transactions with block data formated as full_blocks_list db view

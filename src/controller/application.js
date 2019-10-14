@@ -155,7 +155,7 @@ class Application {
 		this.config = appConfig;
 		this.controller = null;
 
-		// TODO: This should be removed after https://github.com/PhaetonHQ/phaeton/pull/2980
+		// TODO: This should be removed after https://github.com/oodlestechnologies/phaeton/pull/2980
 		global.constants = this.constants;
 
 		this.logger = createLoggerComponent(this.config.components.logger);

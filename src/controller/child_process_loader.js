@@ -47,7 +47,7 @@ process.on('message', ({ loadModule, config, moduleOptions }) => {
 	}
 });
 
-// TODO: Removed after https://github.com/PhaetonHQ/phaeton/issues/3210 is fixed
+// TODO: Removed after https://github.com/oodlestechnologies/phaeton/issues/3210 is fixed
 process.on('disconnect', () => {
 	process.exit();
 });

@@ -97,14 +97,14 @@ module.exports = {
 								'Timestamp indicating the start of Phaeton Core (`Date.toISOString()`)',
 						},
 						// NOTICE: BLOCK_TIME and MAX_TRANSACTIONS_PER_BLOCK are related and it's values
-						// need to be changed togeter as per recommendations noted in https://github.com/PhaetonHQ/phaeton-sdk/issues/3151
+						// need to be changed togeter as per recommendations noted in https://github.com/oodlestechnologies/phaeton-sdk/issues/3151
 						BLOCK_TIME: {
 							type: 'number',
 							minimum: 2,
 							description: 'Slot time interval in seconds',
 						},
 						// NOTICE: BLOCK_TIME and MAX_TRANSACTIONS_PER_BLOCK are related and it's values
-						// need to be changed togeter as per recommendations noted in https://github.com/PhaetonHQ/phaeton-sdk/issues/3151
+						// need to be changed togeter as per recommendations noted in https://github.com/oodlestechnologies/phaeton-sdk/issues/3151
 						MAX_TRANSACTIONS_PER_BLOCK: {
 							type: 'integer',
 							minimum: 1,
@@ -115,7 +115,7 @@ module.exports = {
 							id: 'rewards',
 							type: 'object',
 							required: ['MILESTONES', 'OFFSET', 'DISTANCE'],
-							description: 'Object representing LSK rewards milestone',
+							description: 'Object representing PHA rewards milestone',
 							properties: {
 								MILESTONES: {
 									type: 'array',

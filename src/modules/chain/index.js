@@ -40,7 +40,7 @@ module.exports = class ChainModule extends BaseModule {
 
 	static get info() {
 		return {
-			author: 'PhaetonHQ',
+			author: 'oodlestechnologies',
 			version: '0.1.0',
 			name: 'phaeton-framework-chain',
 		};

@@ -11,13 +11,13 @@
 		"nodejs",
 		"javascript"
 	],
-	"homepage": "https://github.com/PhaetonHQ/phaeton-sdk#readme",
+	"homepage": "https://github.com/oodlestechnologies/phaeton-sdk#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/PhaetonHQ/phaeton-sdk.git"
+		"url": "git+https://github.com/oodlestechnologies/phaeton-sdk.git"
 	},
 	"bugs": {
-		"url": "https://github.com/PhaetonHQ/phaeton-sdk/issues"
+		"url": "https://github.com/oodlestechnologies/phaeton-sdk/issues"
 	},
 	"engines": {
 		"node": ">=10.4 <=10",
@@ -72,7 +72,7 @@
 		"ip": "1.1.5",
 		"js-yaml": "3.13.1",
 		"json-refs": "3.0.12",
-		"phaeton-newrelic": "PhaetonHQ/phaeton-newrelic#e512ac7",
+		"phaeton-newrelic": "oodlestechnologies/phaeton-newrelic#e512ac7",
 		"lodash": "4.17.11",
 		"method-override": "3.0.0",
 		"newrelic": "5.0.0",

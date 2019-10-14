@@ -19,18 +19,18 @@ info:
     # Welcome!
 
     ## Access Restrictions
-    The API endpoints are by default restricted to a whitelist of IPs that can be found in `config.json` in the section [`api.access.whitelist`](https://github.com/PhaetonHQ/phaeton/blob/1.0.0/config.json#L35).
+    The API endpoints are by default restricted to a whitelist of IPs that can be found in `config.json` in the section [`api.access.whitelist`](https://github.com/oodlestechnologies/phaeton/blob/1.0.0/config.json#L35).
     If you want your API to be accessable by the public, you can do this by changing `api.access.public` to `true`.
     This will allow anyone to make requests to your Phaeton Core node.
     However some endpoints stay private, that means only a list of whitelisted IPs can successfully make API calls to that particular endpoint;
     This includes all forging related API calls.
-    By default, only the nodes' local IP is included in the whitelist, you can change the setting in `config.json` in the section [`forging.access.whitelist`](https://github.com/PhaetonHQ/phaeton/blob/1.0.0/config.json#L114).
+    By default, only the nodes' local IP is included in the whitelist, you can change the setting in `config.json` in the section [`forging.access.whitelist`](https://github.com/oodlestechnologies/phaeton/blob/1.0.0/config.json#L114).
     For more details, see the descriptions at the respective endpoint.
 
     ## Requests
     Chained filter parameters are logically connected with `AND`.
     `HTTP` is the supported URL schema by default.
-    To enable `HTTPS`, please adjust the the [`ssl`](https://github.com/PhaetonHQ/phaeton/blob/1.0.0/config.json#L124) section in `config.json`.
+    To enable `HTTPS`, please adjust the the [`ssl`](https://github.com/oodlestechnologies/phaeton/blob/1.0.0/config.json#L124) section in `config.json`.
 
     ## Responses
     The general response format is JSON (`application/json`).
@@ -1901,7 +1901,7 @@ definitions:
         type: string
         example: '65000000'
         description: |
-          Total amount of LSK that have been forged in this Block.
+          Total amount of PHA that have been forged in this Block.
           Consists of fees and the reward.
 
   ForgingStatus:
@@ -2233,7 +2233,7 @@ definitions:
       supply:
         type: string
         example: '10575384500000000'
-        description: Total supply of LSK in the network.
+        description: Total supply of PHA in the network.
       reward:
         type: string
         example: '500000000'

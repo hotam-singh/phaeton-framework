@@ -151,7 +151,7 @@ module.exports = {
 			format: 'amount',
 			const: '10000000000000000',
 			description:
-				'Total amount of LSK available in network before rewards milestone started',
+				'Total amount of PHA available in network before rewards milestone started',
 		},
 		TRANSACTION_TYPES: {
 			type: 'object',

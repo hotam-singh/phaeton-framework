@@ -281,6 +281,7 @@ class Account {
 			: this.scope.storage.entities.Account.begin('logic:account:merge', job)
 		)
 			.then(async () => {
+				library.logger.error("***************** ERROR ******************" + address + " %%%%%% " + tx)
 				const [account] = await this.scope.storage.entities.Account.get(
 					{ address },
 					{ extended: true },

@@ -34,7 +34,7 @@ module.exports = class NetworkModule extends BaseModule {
 
 	static get info() {
 		return {
-			author: 'PhaetonHQ',
+			author: 'oodlestechnologies',
 			version: '0.1.0',
 			name: 'phaeton-framework-network',
 		};

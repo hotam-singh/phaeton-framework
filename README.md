@@ -3,10 +3,10 @@
 # Phaeton Framework
 
 [![Build Status](https://jenkins.phaeton.io/buildStatus/icon?job=phaeton-core/development)](https://jenkins.phaeton.io/job/phaeton-core/job/development)
-[![Coverage Status](https://coveralls.io/repos/github/PhaetonHQ/phaeton/badge.svg?branch=development)](https://coveralls.io/github/PhaetonHQ/phaeton?branch=development)
+[![Coverage Status](https://coveralls.io/repos/github/oodlestechnologies/phaeton/badge.svg?branch=development)](https://coveralls.io/github/oodlestechnologies/phaeton?branch=development)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-<a href="https://david-dm.org/PhaetonHQ/phaeton"><img src="https://david-dm.org/PhaetonHQ/phaeton.svg" alt="Dependency Status"></a>
-<a href="https://david-dm.org/PhaetonHQ/phaeton/?type=dev"><img src="https://david-dm.org/PhaetonHQ/phaeton/dev-status.svg" alt="devDependency Status"></a>
+<a href="https://david-dm.org/oodlestechnologies/phaeton"><img src="https://david-dm.org/oodlestechnologies/phaeton.svg" alt="Dependency Status"></a>
+<a href="https://david-dm.org/oodlestechnologies/phaeton/?type=dev"><img src="https://david-dm.org/oodlestechnologies/phaeton/dev-status.svg" alt="devDependency Status"></a>
 
 ## What is Phaeton Framework
 
@@ -16,13 +16,13 @@ Phaeton Framework aims to provide a consistent and intuitive interface between e
 
 ### Architecture Overview
 
-The architecture of Phaeton Framework follows the research documented in [LIP0005](https://github.com/PhaetonHQ/lips/blob/master/proposals/lip-0005.md). The diagram below provides a high-level overview of the architecture:
+The architecture of Phaeton Framework follows the research documented in [LIP0005](https://github.com/oodlestechnologies/lips/blob/master/proposals/lip-0005.md). The diagram below provides a high-level overview of the architecture:
 
 ![Logo](./docs/assets/diagram_framework.png)
 
 ## Installation and usage
 
-To install and use Phaeton Framework follow the steps described in the [Phaeton SDK installation](https://github.com/PhaetonHQ/phaeton-sdk#installation) and [usage](https://github.com/PhaetonHQ/phaeton-sdk#usage) sections.
+To install and use Phaeton Framework follow the steps described in the [Phaeton SDK installation](https://github.com/oodlestechnologies/phaeton-sdk#installation) and [usage](https://github.com/oodlestechnologies/phaeton-sdk#usage) sections.
 
 ## Tests
 
@@ -134,11 +134,11 @@ If you want to test the changes in `phaeton-sdk/elements` to reflect in `phaeton
 | Reason                           | How                                                                                            |
 | -------------------------------- | ---------------------------------------------------------------------------------------------- |
 | Want to chat with our community  | [Chat with them on Phaeton.chat](http://phaeton.chat)                                                |
-| Want to chat with our developers | [Chat with them on Gitter](https://gitter.im/PhaetonHQ/phaeton)                                      |
-| Found a bug                      | [Open a new issue](https://github.com/PhaetonHQ/phaeton/issues/new)                                  |
+| Want to chat with our developers | [Chat with them on Gitter](https://gitter.im/oodlestechnologies/phaeton)                                      |
+| Found a bug                      | [Open a new issue](https://github.com/oodlestechnologies/phaeton/issues/new)                                  |
 | Found a security issue           | [See our bounty program](https://blog.phaeton.io/announcing-phaeton-bug-bounty-program-5895bdd46ed4) |
 | Want to share your research      | [Propose your research](https://research.phaeton.io)                                              |
-| Want to develop with us          | [Create a fork](https://github.com/PhaetonHQ/phaeton/fork)                                           |
+| Want to develop with us          | [Create a fork](https://github.com/oodlestechnologies/phaeton/fork)                                           |
 
 ## License
 
