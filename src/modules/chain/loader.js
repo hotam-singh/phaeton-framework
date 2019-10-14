@@ -15,8 +15,8 @@
 'use strict';
 
 const async = require('async');
-const { Status: TransactionStatus } = require('@phaetonhq/phaeton-transactions');
-const { validator } = require('@phaetonhq/phaeton-validator');
+const { Status: TransactionStatus } = require('phaeton-transactions');
+const { validator } = require('phaeton-validator');
 const { validateTransactions } = require('./transactions');
 const { CommonBlockError } = require('./utils/error_handlers');
 const definitions = require('./schema/definitions');

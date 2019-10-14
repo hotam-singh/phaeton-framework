@@ -14,9 +14,9 @@
 
 'use strict';
 
-const BigNum = require('@phaetonhq/bignum');
+const BigNum = require('bignum');
 const async = require('async');
-const cryptography = require('@phaetonhq/phaeton-cryptography');
+const cryptography = require('phaeton-cryptography');
 
 const { Delegates } = require('./delegates');
 const Account = require('./account.js');

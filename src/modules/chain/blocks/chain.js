@@ -15,7 +15,7 @@
 'use strict';
 
 const { cloneDeep } = require('lodash');
-const { Status: TransactionStatus } = require('@phaetonhq/phaeton-transactions');
+const { Status: TransactionStatus } = require('phaeton-transactions');
 const transactionsModule = require('../transactions');
 const { storageRead } = require('./block');
 

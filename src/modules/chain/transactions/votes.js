@@ -14,7 +14,7 @@
 
 'use strict';
 
-const BigNum = require('@phaetonhq/bignum');
+const BigNum = require('bignum');
 
 // TODO: change to more generic way
 const TRANSACTION_TYPES_SEND = 0;

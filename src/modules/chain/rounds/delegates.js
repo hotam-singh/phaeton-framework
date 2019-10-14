@@ -14,7 +14,7 @@
 
 'use strict';
 
-const { hash } = require('@phaetonhq/phaeton-cryptography');
+const { hash } = require('phaeton-cryptography');
 
 /**
  * Gets delegate public keys sorted by vote descending.

@@ -14,7 +14,7 @@
 
 'use strict';
 
-const { getRandomBytes } = require('@phaetonhq/phaeton-cryptography');
+const { getRandomBytes } = require('phaeton-cryptography');
 const {
 	P2P,
 	EVENT_NETWORK_READY,
@@ -33,7 +33,7 @@ const {
 	EVENT_MESSAGE_RECEIVED,
 	EVENT_BAN_PEER,
 	EVENT_UNBAN_PEER,
-} = require('@phaetonhq/phaeton-p2p');
+} = require('phaeton-p2p');
 const randomstring = require('randomstring');
 const { createLoggerComponent } = require('../../components/logger');
 const { createStorageComponent } = require('../../components/storage');

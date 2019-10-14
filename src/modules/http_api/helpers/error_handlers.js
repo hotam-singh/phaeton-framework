@@ -14,7 +14,7 @@
 
 'use strict';
 
-const { TransactionError } = require('@phaetonhq/phaeton-transactions');
+const { TransactionError } = require('phaeton-transactions');
 
 /**
  * Converts array of errors into string

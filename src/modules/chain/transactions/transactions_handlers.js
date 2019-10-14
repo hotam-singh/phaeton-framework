@@ -14,11 +14,11 @@
 
 'use strict';
 
-const BigNum = require('@phaetonhq/bignum');
+const BigNum = require('bignum');
 const {
 	Status: TransactionStatus,
 	TransactionError,
-} = require('@phaetonhq/phaeton-transactions');
+} = require('phaeton-transactions');
 const votes = require('./votes');
 const exceptionsHandlers = require('./exceptions_handlers');
 const StateStore = require('../state_store');

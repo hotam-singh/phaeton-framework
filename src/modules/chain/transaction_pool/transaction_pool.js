@@ -16,12 +16,12 @@
 
 const EventEmitter = require('events');
 const _ = require('lodash');
-const pool = require('@phaetonhq/phaeton-transaction-pool');
+const pool = require('phaeton-transaction-pool');
 const {
 	Status: TransactionStatus,
 	TransactionError,
-} = require('@phaetonhq/phaeton-transactions');
-const { getAddressFromPublicKey } = require('@phaetonhq/phaeton-cryptography');
+} = require('phaeton-transactions');
+const { getAddressFromPublicKey } = require('phaeton-cryptography');
 const { sortBy } = require('./sort');
 const transactionsModule = require('../transactions');
 

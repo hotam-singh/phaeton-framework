@@ -14,7 +14,7 @@
 
 'use strict';
 
-const BigNum = require('@phaetonhq/bignum');
+const BigNum = require('bignum');
 
 /**
  * Returns absolute value from number.

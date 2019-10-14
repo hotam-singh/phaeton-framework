@@ -14,7 +14,7 @@
 
 'use strict';
 
-const BigNum = require('@phaetonhq/bignum');
+const BigNum = require('bignum');
 
 // TODO: This file will be renamed or deleted after deciding where calculateApproval belongs
 

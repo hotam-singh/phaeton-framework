@@ -22,8 +22,8 @@ const {
 	VoteTransaction,
 	MultisignatureTransaction,
 	transactionInterface,
-} = require('@phaetonhq/phaeton-transactions');
-const { validator: phaetonValidator } = require('@phaetonhq/phaeton-validator');
+} = require('phaeton-transactions');
+const { validator: phaetonValidator } = require('phaeton-validator');
 const randomstring = require('randomstring');
 const _ = require('lodash');
 const Controller = require('./controller');
@@ -236,7 +236,7 @@ class Application {
 	 * Register a transaction
 	 *
 	 * @param {number} transactionType - Unique integer that identifies the transaction type
-	 * @param {constructor} Transaction - Implementation of @phaetonhq/phaeton-transactions/base_transaction
+	 * @param {constructor} Transaction - Implementation of phaeton-transactions/base_transaction
 	 */
 	registerTransaction(Transaction, { matcher } = {}) {
 		assert(Transaction, 'Transaction implementation is required');

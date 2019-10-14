@@ -14,7 +14,7 @@
 
 'use strict';
 
-const { Status: TransactionStatus } = require('@phaetonhq/phaeton-transactions');
+const { Status: TransactionStatus } = require('phaeton-transactions');
 const blocksUtils = require('./utils');
 const blocksLogic = require('./block');
 const blockVersion = require('./block_version');

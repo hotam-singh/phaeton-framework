@@ -15,8 +15,8 @@
 'use strict';
 
 const _ = require('lodash');
-const BigNum = require('@phaetonhq/bignum');
-const { validator } = require('@phaetonhq/phaeton-validator');
+const BigNum = require('bignum');
+const { validator } = require('phaeton-validator');
 
 // Private fields
 let library;

@@ -15,8 +15,8 @@
 'use strict';
 
 const _ = require('lodash');
-const { getAddressFromPublicKey } = require('@phaetonhq/phaeton-cryptography');
-const BigNum = require('@phaetonhq/bignum');
+const { getAddressFromPublicKey } = require('phaeton-cryptography');
+const BigNum = require('bignum');
 const ApiError = require('../api_error');
 const apiCodes = require('../api_codes');
 const swaggerHelper = require('../helpers/swagger');

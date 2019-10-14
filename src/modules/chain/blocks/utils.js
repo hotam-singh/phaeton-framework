@@ -15,8 +15,8 @@
 'use strict';
 
 const _ = require('lodash');
-const { hash } = require('@phaetonhq/phaeton-cryptography');
-const BigNum = require('@phaetonhq/bignum');
+const { hash } = require('phaeton-cryptography');
+const BigNum = require('bignum');
 const blocksLogic = require('./block');
 
 /**

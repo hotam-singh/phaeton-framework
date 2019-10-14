@@ -19,7 +19,7 @@ const {
 	decryptPassphraseWithPassword,
 	parseEncryptedPassphrase,
 	getAddressFromPublicKey,
-} = require('@phaetonhq/phaeton-cryptography');
+} = require('phaeton-cryptography');
 
 /**
  * Gets the assigned delegate to current slot and returns its keypair if present.

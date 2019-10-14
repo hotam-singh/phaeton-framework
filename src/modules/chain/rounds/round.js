@@ -15,8 +15,8 @@
 'use strict';
 
 const Promise = require('bluebird');
-const { getAddressFromPublicKey } = require('@phaetonhq/phaeton-cryptography');
-const BigNum = require('@phaetonhq/bignum');
+const { getAddressFromPublicKey } = require('phaeton-cryptography');
+const BigNum = require('bignum');
 
 /**
  * Validates required scope properties.

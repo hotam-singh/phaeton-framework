@@ -14,7 +14,7 @@
 
 'use strict';
 
-const { Status: TransactionStatus } = require('@phaetonhq/phaeton-transactions');
+const { Status: TransactionStatus } = require('phaeton-transactions');
 
 /**
  * Executes each step from left to right and pipes the transactions that succeed to the next

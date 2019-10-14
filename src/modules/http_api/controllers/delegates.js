@@ -15,7 +15,7 @@
 'use strict';
 
 const _ = require('lodash');
-const BigNum = require('@phaetonhq/bignum');
+const BigNum = require('bignum');
 const swaggerHelper = require('../helpers/swagger');
 const apiCodes = require('../api_codes');
 const ApiError = require('../api_error');

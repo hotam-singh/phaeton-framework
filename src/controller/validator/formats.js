@@ -16,7 +16,7 @@
 
 const ip = require('ip');
 const _ = require('lodash');
-const BigNum = require('@phaetonhq/bignum');
+const BigNum = require('bignum');
 
 const HOSTNAME = /^[a-zA-Z](([-0-9a-zA-Z]+)?[0-9a-zA-Z])?(\.[a-zA-Z](([-0-9a-zA-Z]+)?[0-9a-zA-Z])?)*$/;
 

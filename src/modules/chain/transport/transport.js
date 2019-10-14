@@ -14,8 +14,8 @@
 
 'use strict';
 
-const { TransactionError } = require('@phaetonhq/phaeton-transactions');
-const { validator } = require('@phaetonhq/phaeton-validator');
+const { TransactionError } = require('phaeton-transactions');
+const { validator } = require('phaeton-validator');
 const _ = require('lodash');
 const { convertErrorsToString } = require('../utils/error_handlers');
 const Broadcaster = require('./broadcaster');

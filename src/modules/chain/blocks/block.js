@@ -14,7 +14,7 @@
 
 'use strict';
 
-const { Status: TransactionStatus } = require('@phaetonhq/phaeton-transactions');
+const { Status: TransactionStatus } = require('phaeton-transactions');
 const {
 	BIG_ENDIAN,
 	getAddressFromPublicKey,
@@ -24,10 +24,10 @@ const {
 	LITTLE_ENDIAN,
 	signDataWithPrivateKey,
 	verifyData,
-} = require('@phaetonhq/phaeton-cryptography');
+} = require('phaeton-cryptography');
 const _ = require('lodash');
-const BigNum = require('@phaetonhq/bignum');
-const { validator } = require('@phaetonhq/phaeton-validator');
+const BigNum = require('bignum');
+const { validator } = require('phaeton-validator');
 const { validateTransactions } = require('../transactions');
 const blockVersion = require('./block_version');
 
